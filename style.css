@@ -1,0 +1,74 @@
+@font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Open Sans Condensed Bold'), local('OpenSansCondensed-Bold'), url(https://fonts.gstatic.com/s/opensanscondensed/v14/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff0GmDuvMR6WR.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+  @font-face {
+    font-family: 'Open Sans Condensed';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local('Open Sans Condensed Bold'), local('OpenSansCondensed-Bold'), url(https://fonts.gstatic.com/s/opensanscondensed/v14/z7NFdQDnbTkabZAIOl9il_O6KJj73e7Ff0GmDuXMRw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+@font-face {
+    font-family: 'Chelsea Market';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Chelsea Market'), local('ChelseaMarket-Regular'), url(https://fonts.gstatic.com/s/chelseamarket/v7/BCawqZsHqfr89WNP_IApC8tzKChsJg8eKg.woff2) format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+  }
+@font-face {
+    font-family: 'Chelsea Market';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local('Chelsea Market'), local('ChelseaMarket-Regular'), url(https://fonts.gstatic.com/s/chelseamarket/v7/BCawqZsHqfr89WNP_IApC8tzKChiJg8.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+html {
+    background-color: #F6EF44;
+}
+.header {
+    background-color: #EFCA08;
+    padding-top: 0;
+    margin-top: 0;
+    position: relative;
+    top: -20px;
+    width: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.header h1{
+    color: #00A6A6;
+    padding-left: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-bottom: 0;
+    text-align: center;
+}
+.video{
+    float: left;
+    margin-top: 10px;
+    padding-top: 0;
+    width: 50%;
+}
+.transcript {
+    line-height: 50px;
+    width: 48%;
+    height: 500px;
+    background-color: #6DE4E4;
+    margin: 10px 10px;
+    float: right;
+    overflow-y: scroll;
+    padding: 5px;
+    text-align: center;
+}
+.transcript pre {
+    font-family: 'Chelsea Market';
+    font-size: 19px;
+    font-weight: lighter;
+}
